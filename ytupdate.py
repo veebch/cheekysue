@@ -176,10 +176,11 @@ def print_video_infos(video_response):
 
 
 def main():
+    os.chdir("/home/mart/sandbox/youtubey/")
     youtube = create_service("client_secret.json",
     ["https://www.googleapis.com/auth/youtube.force-ssl"])
     videoid="47cM1lvHEzI"
-    titleroot="Deeply Satisfying Hot Wire Cutting: "
+    titleroot="Hot Wire Cutting: This video has "
     video_url = "https://www.youtube.com/watch?v="+videoid+"&ab_channel=jawed"
     # parse video ID from URL
     video_id = get_video_id_by_url(video_url)
