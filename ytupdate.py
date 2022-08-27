@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# A script to run as a cronjob every 10 minutes that adjusts the title of out (currently) least popular video, based on how many comments it has
+# A script to run as a cronjob every 10 minutes that adjusts the title of our (currently) least popular video, based on how many comments it has
 import os, pickle
 import argparse
 
